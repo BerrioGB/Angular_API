@@ -1,0 +1,11 @@
+<h1>API</h1>
+<div class="content">
+  <div class="card" *ngFor="let item of data">
+    <p class="card-title">{{item.novedad.titulo}}</p>
+    <p class="small-desc">
+      <strong>Tipo Novedad:</strong><br> {{item.novedad.tipoNovedad}}<br>
+      <strong>Autor:</strong> <br>{{item.novedad.autor}}<br>
+      <strong>ID:</strong> <br>{{item.novedad.id}}<br>
+    </p>
+  </div>
+</div>
